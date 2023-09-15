@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.sticky-top{
+    background-color: rgb(255, 255, 255);
+}
+
+.bi-house-fill,
+.bi-person-circle,
+.bi-sliders2-vertical,
+.bi-box-arrow-in-right{
+    font-size: 23px;
+}
