@@ -1,11 +1,25 @@
 
 @media screen and (max-width: 600px) {
     #leftSideMenu,
-    #top{
+    #topRight{
         display: none;
     }
     #mainContent{
-        width: calc(100% - 40px) !important;
+        width: 100% !important;
         margin: 0px auto !important;
     }
+    .subContent{
+        font-size: 11px;
+        width: 120px;
+    }
+    .contentUserImage{
+        display: contents;
+    }
+    .userImageArea,
+    .contents{
+        width: 100%;
+    }
+
+  
+   
   }

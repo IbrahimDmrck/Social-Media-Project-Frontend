@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.ckeditor.com/ckeditor5/39.0.2/classic/ckeditor.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
   </head> 
   <body>
     <div class="container">
@@ -33,53 +34,149 @@
         </header>
 
         <main class="d-flex   justify-content-center justify-content-md-between">
-            <div id="leftSideMenu" class="col-3 border justify-content-start h-50 py-1 px-1 text-center">
+            <div id="leftSideMenu" class="col-2 border justify-content-start h-50 py-1 px-1 text-center">
                 <div  class="border border-1 mb-4 mt-3 shadow h-auto">
                     <a class="d-inline-flex align-items-center link-body-emphasis text-decoration-none" href="">
                         <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="50" height="50" alt="">
                     </a>
                     <h6>İbrahim Demircik</h6>
                     <div class=" align-items-center justify-content-center justify-content-md-between mb-5">
-                        <a href="" class="col-6 border py-1 px-1 mb-5  float-start">15</a>
-                        <a href="" class="col-6 border py-1 px-1 mb-5 float-end">53</a>
+                        <a href="" class="col-6 border py-1 px-1 mb-5  float-start text-decoration-none"><i class="bi bi-substack me-2"></i>15</a>
+                        <a href="" class="col-6 border py-1 px-1 mb-5 float-end text-decoration-none"><i class="bi bi-bell-fill me-2"></i>53</a>
                     </div>
                 </div>
                 <ul class="nav d-inline col-12 col-md-auto mb-2 align-items-center justify-content-center mb-md-0">
-                    <li class="nav-link border border-1 border-primary px-2"><i class="bi bi-house-fill me-2"></i>Ana Sayfa</li>
-                    <li class="nav-link text-black px-2"><i class="bi bi-person-circle me-2"></i>Profilim</li>
-                    <li class="nav-link text-black px-2"><i class="bi bi-sliders2-vertical me-2"></i>Ayarlar</li>
-                    <li class="nav-link px-2">
+                    <li class="nav-link border border-1 border-primary "><i class="bi bi-house-fill me-2"></i>Ana Sayfa</li>
+                    <li class="nav-link text-black "><i class="bi bi-person-circle me-2"></i>Profilim</li>
+                    <li class="nav-link text-black "><i class="bi bi-sliders2-vertical me-2"></i>Ayarlar</li>
+                    <li class="nav-link ">
                         <a class="btn btn-outline-danger"><i class="bi bi-box-arrow-in-right me-2"></i>Çıkış Yap</a>
                     </li>
                 </ul> 
             </div>
-            <div id="mainContent" class="col-6 border d-flex flex-wrap col-12 col-md-auto mb-2 align-items-baseline justify-content-evenly w-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint quia magni laborum libero, quibusdam alias, nostrum harum illum, est distinctio a commodi. Rerum, molestiae voluptas! Corporis doloribus quidem suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non magnam doloribus dolorum tempore molestias neque amet. Dolores quisquam numquam dolorum officia inventore. Assumenda non, eius dolorum cupiditate deserunt nulla?
+            <div id="mainContent" class="col-8  d-flex flex-wrap col-12 col-md-auto mb-2 align-items-start justify-content-center  p-1">
+                <div class="row mt-3">
+                    <div  class="contentUserImage col-2 justify-content-start h-50 py-1 px-1 text-center">
+                        <div  class="userImageArea border py-3 mb-4 mt-3  h-auto">
+                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="50" height="50" alt="">
+                            </a>
+                            <h6>İbrahim Demircik</h6>
+                        </div>
+                    </div>
+                    <div  class="contents col-10 border ps-3 py-3 ms-0 shadow">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est. Necessitatibus, neque vero unde sint expedita voluptate provident, aspernatur veniam assumenda sequi c
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quae praesentium delectus illum impedit! Ab, quia, laborum reiciendis reprehenderit asperiores repellendus autem, eius saepe tempora repellat voluptatum ut rerum ex.
+                        <div class="pt-3 ps-2 pe-2">
+                            
+                            <button id="commentBtn" type="button" class="subContent btn btn-outline-primary dropdown-toggle fw-bold">Yorumlar</button>
+                            <ul class="dropdown-menu w-50 h-50 overflow-auto">
+                                
+                            <!-- Yorum içeriği başlangıç -->
+                                <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                    <div class="contentUserImage col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                        <div class="userImageArea border py-3 mb-4 mt-3  h-auto">
+                                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                            </a>
+                                            <h6>İbrahim Demircik</h6>
+                                        </div>
+                                    </div>
+                                    <div class="contents col-10 border ps-3 py-3 ms-0 shadow">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                    </div>
+                                </div>
+                                <!-- Yorum içeriği bitiş -->
+
+                             <!-- Yorum içeriği başlangıç -->
+                             <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                <div class="contentUserImage col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                    <div class="userImageArea border py-3 mb-4 mt-3  h-auto">
+                                        <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                            <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                        </a>
+                                        <h6>İbrahim Demircik</h6>
+                                    </div>
+                                </div>
+                                <div class="contents col-10 border ps-3 py-3 ms-0 shadow">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                </div>
+                            </div>
+                            <!-- Yorum içeriği bitiş -->
+
+                                                <!-- Yorum içeriği başlangıç -->
+                                                <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                                    <div class="contentUserImage col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                                        <div class="userImageArea border py-3 mb-4 mt-3  h-auto">
+                                                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                                            </a>
+                                                            <h6>İbrahim Demircik</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="contents col-10 border ps-3 py-3 ms-0 shadow">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                                    </div>
+                                                </div>
+                                                <!-- Yorum içeriği bitiş -->
+
+                                                                    <!-- Yorum içeriği başlangıç -->
+                                <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                    <div class="contentUserImage col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                        <div class="userImageArea border py-3 mb-4 mt-3  h-auto">
+                                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                            </a>
+                                            <h6>İbrahim Demircik</h6>
+                                        </div>
+                                    </div>
+                                    <div class="contents col-10 border ps-3 py-3 ms-0 shadow">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                    </div>
+                                </div>
+                                <!-- Yorum içeriği bitiş -->
+
+                                                    <!-- Yorum içeriği başlangıç -->
+                                                    <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                                        <div class="contentUserImage col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                                            <div class="userImageArea border py-3 mb-4 mt-3  h-auto">
+                                                                <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                                    <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                                                </a>
+                                                                <h6>İbrahim Demircik</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="contents col-10 border ps-3 py-3 ms-0 shadow">
+                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                                        </div>
+                                                    </div>
+                                                    <!-- Yorum içeriği bitiş -->
+
+                                <div class="dropdown-item  w-100 mb-3">
+                                    <form action="deneme.php" method="get">
+                                    <input id="editor" type="text" class=" w-100" placeholder="Yorumunuz" >
+                                    <button class="btn btn-outline-success float-end mt-2" type="submit" >Yorum Yap</button>
+                                </form>
+                                <button id="closeCommentArea" type="button" class="btn btn-outline-danger btn-sm mt-3">X</button>
+                                  </div>
+                              </ul>
+
+
+                            <span  class="subContent text-end float-end me-3 btn btn-outline-secondary">2023/05/23 - 12:06</span>
+                        </div>
+                    </div>
+                </div>
+                
+                
             </div>
-            <div id="top" class="col-3 h-50 text-center border">s  b vbnvbnvgf Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus neque, maxime adipisci placeat aperiam qui quibusdam tempore dolores omnis ab exercitationem atque harum debitis doloremque aut nostrum reiciendis illo dicta? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem illum saepe labore ducimus maiores aspernatur nobis impedit eligendi magni iure, velit est! Beatae sunt dolor dignissimos assumenda error, eius nulla! lor</div>
+            
+            <div id="topRight" class="col-2 h-50 text-center border">s  b vbnvbnvgf Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus neque, maxime adipisci placeat aperiam qui quibusdam tempore dolores omnis ab exercitationem atque harum debitis doloremque aut nostrum reiciendis illo dicta? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem illum saepe labore ducimus maiores aspernatur nobis impedit eligendi magni iure, velit est! Beatae sunt dolor dignissimos assumenda error, eius nulla! lor</div>
         </main>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="assets/js/ckEditor.js"></script>
+    <script src="assets/js/responsive.js"></script>
   </body>
 </html>

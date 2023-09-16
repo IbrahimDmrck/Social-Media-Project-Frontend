@@ -1,0 +1,106 @@
+            <div id="mainContent" class="col-8 border d-flex flex-wrap col-12 col-md-auto mb-2 align-items-baseline justify-content-center w-75 p-3">
+                <div class="row align-items-center justify-content-center">
+                    <div class="userContent p-3 d-flex flex-wrap col-2  mb-2 align-items-center justify-content-center" >
+                        <img src="assets/images/testLogo.jpg" class="rounded-circle"  width="50" height="50" alt="">
+                        <div>İbrahim Demircik</div>
+                    </div>
+                    <div class="border col-10 d-flex flex-wrap align-items-center justify-content-center text-start z-1 shadow">
+                        Lorem ipsum dolor sit amet cons
+                    </div>
+                </div>
+              
+            </div>
+
+            ************------------**********
+            <button type="button" class="subContent btn btn-outline-primary dropdown-toggle fw-bold" data-bs-toggle="dropdown" aria-expanded="false">Yorumlar</button>
+                            <ul class="dropdown-menu w-50 h-50 overflow-auto">
+                                
+                            <!-- Yorum içeriği başlangıç -->
+                                <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                    <div class=" col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                        <div class="border py-3 mb-4 mt-3  h-auto">
+                                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                            </a>
+                                            <h6>İbrahim Demircik</h6>
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 border ps-3 py-3 ms-0 shadow">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                    </div>
+                                </div>
+                                <!-- Yorum içeriği bitiş -->
+                                  <!-- Yorum içeriği başlangıç -->
+                                  <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                    <div class=" col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                        <div class="border py-3 mb-4 mt-3  h-auto">
+                                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                            </a>
+                                            <h6>İbrahim Demircik</h6>
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 border ps-3 py-3 ms-0 shadow">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                    </div>
+                                </div>
+                                <!-- Yorum içeriği bitiş -->
+                                  <!-- Yorum içeriği başlangıç -->
+                                  <div class="d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                    <div class=" col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                        <div class="border py-3 mb-4 mt-3  h-auto">
+                                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                            </a>
+                                            <h6>İbrahim Demircik</h6>
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 border ps-3 py-3 ms-0 shadow">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                    </div>
+                                </div>
+                                <!-- Yorum içeriği bitiş -->
+
+                                <div class="dropdown-item  w-100 mb-3">
+                                    <form action="deneme.php" method="get">
+                                    <input id="editor" type="text" class=" w-100" placeholder="Yorumunuz" >
+                                    <button class="btn btn-outline-success float-end mt-2" type="submit" >Yorum Yap</button>
+                                </form>
+                                  </div>
+                              </ul>
+
+
+
+                              *-*-*-**--*-*-**-**-*-*-*-*--*-
+                                   <div class="dropdown ">
+                                <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                 Yorumlar
+                                </button>
+                                <ul class="dropdown-menu">
+
+                                  <!-- Yorum içeriği başlangıç -->
+                                  <div class=" d-flex flex-wrap col-12 col-md-auto mb-2 align-items-center justify-content-center">
+                                    <div class=" col-2 justify-content-start h-25 py-1 px-1 text-center">
+                                        <div class="border py-3 mb-4 mt-3  h-auto">
+                                            <a class="d-inline-flex align-items-center text-decoration-none" href="">
+                                                <img src="assets/images/testLogo.jpg" class="img-fluid img-thumbnail rounded-circle me-2" width="25" height="25" alt="">
+                                            </a>
+                                            <h6>İbrahim Demircik</h6>
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 border ps-3 py-3 ms-0 shadow">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda ducimus ex ratione. Esse, est.
+                                    </div>
+                                </div>
+                                <!-- Yorum içeriği bitiş -->
+                              
+
+                                <form class="dropdown-item p-4">
+                                  <div class="mb-3">
+                                    <label for="exampleDropdownFormEmail2" class="form-label">Yorumunuz :</label>
+                                    <input id="editor" type="text" class="form-control w-100" id="exampleDropdownFormEmail2" placeholder="Yorumunuzu buraya yazınız">
+                                  </div>
+                                  <button type="submit" class="btn btn-outline-success float-end">Yorum Yap</button>
+                                </form>
+                            </ul>
+                              </div>

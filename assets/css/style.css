@@ -8,10 +8,21 @@ body{
 .sticky-top{
     background-color: rgb(255, 255, 255);
 }
-
+.userContent{
+    border-left: 1px solid rgba(0, 0, 0, 0.165);
+    border-top: 1px solid rgba(0, 0, 0, 0.165);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.165);
+}
+#mainContent{
+    width: 65%;
+}
 .bi-house-fill,
 .bi-person-circle,
 .bi-sliders2-vertical,
 .bi-box-arrow-in-right{
-    font-size: 23px;
+    font-size: 17px;
+}
+
+.dropdown-item:active{
+    background-color: unset !important;
 }
