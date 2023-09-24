@@ -7,7 +7,7 @@
     #mainContent{
         width: 100% !important;
         margin: 0px auto !important;
-    }
+    } 
     .subContent{
         font-size: 11px;
         width: 120px;
@@ -20,6 +20,11 @@
         width: 100%;
     }
 
-  
-   
-  }
+    .userImageArea{
+        border-bottom: none !important;
+    }
+
+    #comment{
+        width: calc(100% - 50px) !important;
+    }
+}

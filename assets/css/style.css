@@ -6,7 +6,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .sticky-top{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); 
 }
 .userContent{
     border-left: 1px solid rgba(0, 0, 0, 0.165);
@@ -25,4 +25,11 @@ body{
 
 .dropdown-item:active{
     background-color: unset !important;
+}
+.note-icon-caret{
+    display: none;
+}
+
+#commentForm{
+    background-color: rgba(240, 240, 234, 0.648);
 }
