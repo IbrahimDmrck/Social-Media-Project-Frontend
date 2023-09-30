@@ -92,3 +92,10 @@ body{
 .menu>li:hover::before {
     opacity: 1;
 }
+
+#headMenu{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    background-color: rgba(243, 243, 241, 0.575);
+}
