@@ -30,6 +30,27 @@ body{
     display: none;
 }
 
+.comment{
+    z-index: 99999;
+}
+
 #commentForm{
     background-color: rgba(240, 240, 234, 0.648);
+}
+
+.accordion-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.accordion-profile{
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 600px;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.note-editable{
+    background-color: white;
 }

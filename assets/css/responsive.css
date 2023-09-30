@@ -24,7 +24,7 @@
         border-bottom: none !important;
     }
 
-    #comment{
+    .comment{
         width: calc(100% - 50px) !important;
     }
 }
