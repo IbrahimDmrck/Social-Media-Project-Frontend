@@ -3,9 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\images",
-    "\\assets\\js"
+    "\\assets\\js",
+    "\\assets\\video"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\register.html",
   "PreviewInSolutionExplorer": false
 }
